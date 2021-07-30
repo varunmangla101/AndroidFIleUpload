@@ -1,0 +1,4 @@
+#Fri Jul 30 17:42:52 IST 2021
+base.0=/Users/rishija/Desktop/Varun/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

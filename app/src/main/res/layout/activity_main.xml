@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/upload_file"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="54dp"
+        android:background="#852B17"
+        android:text="SELECT FILE TO UPLOAD"
+        android:textColor="#571B03"
+        app:backgroundTint="#DDB347" />
+
+    <TextView
+        android:id="@+id/filename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/upload_file"
+        android:layout_marginTop="26dp"
+        android:padding="10dp"
+        android:textColor="#000" />
+
+    <Button
+        android:id="@+id/upload"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/filename"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="19dp"
+        android:background="#BD1EB3"
+        android:text="Upload File"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#670909" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="293dp"
+        android:paddingHorizontal="20dp"
+        android:text="\n\n\n                     WELCOME!!! \n\n This is Varun Mangla's File Upload System. It is an Android Library Module that asks user to upload a document."
+        android:textColor="#077776"
+        android:textSize="60px" />
+
+</RelativeLayout>

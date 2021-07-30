@@ -1,0 +1,68 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.varunfileupload"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/Users/rishija/Desktop/Varun/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/rishija/Desktop/Varun/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/rishija/Desktop/Varun/app/src/main/AndroidManifest.xml:6:5-67
+11-->/Users/rishija/Desktop/Varun/app/src/main/AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->/Users/rishija/Desktop/Varun/app/src/main/AndroidManifest.xml:7:5-81
+12-->/Users/rishija/Desktop/Varun/app/src/main/AndroidManifest.xml:7:22-78
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->/Users/rishija/Desktop/Varun/app/src/main/AndroidManifest.xml:8:5-64
+13-->/Users/rishija/Desktop/Varun/app/src/main/AndroidManifest.xml:8:22-62
+14
+15    <uses-feature android:name="android.hardware.camera" />
+15-->/Users/rishija/Desktop/Varun/app/src/main/AndroidManifest.xml:9:5-59
+15-->/Users/rishija/Desktop/Varun/app/src/main/AndroidManifest.xml:9:19-57
+16
+17    <application
+17-->/Users/rishija/Desktop/Varun/app/src/main/AndroidManifest.xml:11:5-29:19
+18        android:allowBackup="true"
+18-->/Users/rishija/Desktop/Varun/app/src/main/AndroidManifest.xml:12:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.1.0] /Users/rishija/.gradle/caches/transforms-2/files-2.1/73530a2d0c1df4b3085807c82555ce12/core-1.1.0/AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->/Users/rishija/Desktop/Varun/app/src/main/AndroidManifest.xml:13:9-43
+22        android:label="@string/app_name"
+22-->/Users/rishija/Desktop/Varun/app/src/main/AndroidManifest.xml:14:9-41
+23        android:requestLegacyExternalStorage="true"
+23-->/Users/rishija/Desktop/Varun/app/src/main/AndroidManifest.xml:18:9-52
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->/Users/rishija/Desktop/Varun/app/src/main/AndroidManifest.xml:15:9-54
+25        android:supportsRtl="true"
+25-->/Users/rishija/Desktop/Varun/app/src/main/AndroidManifest.xml:16:9-35
+26        android:testOnly="true"
+27        android:theme="@style/Theme.VarunFileUpload"
+27-->/Users/rishija/Desktop/Varun/app/src/main/AndroidManifest.xml:17:9-53
+28        android:usesCleartextTraffic="true" >
+28-->/Users/rishija/Desktop/Varun/app/src/main/AndroidManifest.xml:19:9-44
+29        <activity android:name="com.example.varunfileupload.AdvanceFileUpload" />
+29-->/Users/rishija/Desktop/Varun/app/src/main/AndroidManifest.xml:21:9-64
+29-->/Users/rishija/Desktop/Varun/app/src/main/AndroidManifest.xml:21:19-52
+30        <activity android:name="com.example.varunfileupload.MainActivity" >
+30-->/Users/rishija/Desktop/Varun/app/src/main/AndroidManifest.xml:22:9-28:20
+30-->/Users/rishija/Desktop/Varun/app/src/main/AndroidManifest.xml:22:19-47
+31            <intent-filter>
+31-->/Users/rishija/Desktop/Varun/app/src/main/AndroidManifest.xml:23:13-27:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->/Users/rishija/Desktop/Varun/app/src/main/AndroidManifest.xml:24:17-69
+32-->/Users/rishija/Desktop/Varun/app/src/main/AndroidManifest.xml:24:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->/Users/rishija/Desktop/Varun/app/src/main/AndroidManifest.xml:26:17-77
+34-->/Users/rishija/Desktop/Varun/app/src/main/AndroidManifest.xml:26:27-74
+35            </intent-filter>
+36        </activity>
+37    </application>
+38
+39</manifest>
